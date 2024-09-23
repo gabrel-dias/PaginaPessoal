@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: #080606e7;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -21,7 +21,7 @@ header img {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 5px solid #4400ff90;
+  border: 7px double #ffffff;
   backdrop-filter: blur(10px);
 }
 
@@ -30,7 +30,7 @@ header img {
 }
 
 h1 {
-  color: #000dffb1;
+  color: #3e3bf8;
 }
 
 footer img {
@@ -55,6 +55,7 @@ footer p {
 
 .container {
   padding: 0px 50px;
+  text-align: justify;
 }
 
 nav a:hover {
