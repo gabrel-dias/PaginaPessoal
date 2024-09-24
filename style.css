@@ -68,8 +68,9 @@ nav a:hover {
 /* fotos dos projetos */
 .grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
+  place-items: center;
 }
 .grid img {
   max-width: 500px;
