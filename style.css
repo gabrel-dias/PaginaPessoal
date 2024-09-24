@@ -33,6 +33,10 @@ h1 {
   color: #3e3bf8;
 }
 
+p {
+  text-align: justify;
+}
+
 footer img {
   width: 40px;
   height: 40px;
@@ -55,7 +59,6 @@ footer p {
 
 .container {
   padding: 0px 50px;
-  text-align: justify;
 }
 
 nav a:hover {
