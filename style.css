@@ -83,3 +83,9 @@ nav a:hover {
   width: 300px;
   height: 56px;
 }
+
+section ul{
+  text-align: left;
+  padding-left: 0;
+  margin-left: 20px;
+}
