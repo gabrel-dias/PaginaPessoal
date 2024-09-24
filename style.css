@@ -29,9 +29,9 @@ header img {
   text-align: center;
 }
 
-h1 {
+/* h1 {
   color: #3e3bf8;
-}
+} */
 
 p {
   text-align: justify;
@@ -63,4 +63,22 @@ footer p {
 
 nav a:hover {
   color: #0004ff;
+}
+
+/* fotos dos projetos */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+.grid img {
+  max-width: 500px;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.imgcontainer {
+  text-align: center;
+  width: 300px;
+  height: 56px;
 }
